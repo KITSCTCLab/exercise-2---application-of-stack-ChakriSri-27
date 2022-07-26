@@ -85,7 +85,7 @@ class Evaluate:
     Returns:
       The result of evaluated postfix expression.
     """
-    # Write your code here
+
     stack = []
     for i in expression:
       if i.isnumeric():
